@@ -8,6 +8,11 @@
     font-size: 18px;
 }
 
+/* BUTTON */
+.btn:hover{
+    color: white;
+}
+
 /* PROGRESS BAR */
 .progress{
     height: 30px;
