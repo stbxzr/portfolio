@@ -18,3 +18,20 @@
 .progress:hover{
     transform: scale(1.1);
 }
+
+/* CARDS */
+.card{
+    transition: all 0.5 ease;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 2px 10px black;
+
+}
