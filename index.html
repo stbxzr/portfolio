@@ -16,7 +16,7 @@
   </head>
   <body>
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning" id="navbar">
         <div class="container">
           <a class="navbar-brand fw-bold" href="#">Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +28,16 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
           </div>
         </div>
@@ -88,8 +88,8 @@
                   <h3 class="text-warning mb-4">WEB DEVELOPER</h3>
                   <P class="lead mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, obcaecati, laborum doloribus perspiciatis impedit ex blanditiis deserunt libero veritatis nulla voluptates unde voluptatum, ullam earum saepe consequuntur voluptatem repellendus dolor!</P>
                   <div class="buttons">    
-                      <button class="btn btn-outline-warning px-5 py-2">Download CV</button>
-                      <button class="btn btn-warning text-white px-5 py-2">Contact</button>    
+                      <a href="./data/TEST FILE.pdf" class="btn btn-outline-warning px-5 py-2" download="Resume">Download CV</a>
+                      <a href="#contact" class="btn btn-warning text-white px-5 py-2">Contact</a>    
                   </div>
               </div>
               </div>  
@@ -156,16 +156,16 @@
               <div class="card p-4" style="width: 18rem;">
                 <img src="./images/quiz photo.jpeg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
-                  <h3>QUIZAMI</h3>
+                  <h3>Quizami</h3>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card p-4" style="width: 18rem;">
-                <img src="./images/poetry photo.jpeg" class="card-img-top" alt="...">
+                <img src="./images/react photo.png" class="card-img-top" alt="...">
                 <div class="card-body text-center">
-                  <h3>Poetry Explore</h3>
+                  <h3>Helping Hands</h3>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
@@ -211,6 +211,19 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- CHANGE NAVBAR COLOR ON SCROLL-->
+      <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction(){
+          if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+            document.getElementById("navbar").style.backgroundColor = "white";
+          } else {
+            document.getElementById("navbar").style.backgroundColor = "transparent";
+          }
+        }
+      </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
