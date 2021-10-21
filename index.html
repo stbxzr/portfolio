@@ -16,6 +16,8 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
+
+
     <!-- EMAILJS CODE -->
     <script type="text/javascript">
     (function() {
@@ -29,12 +31,12 @@
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-lg navbar-light bg-warning" id="navbar">
         <div class="container">
-          <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+          <a class="navbar-brand fw-bold text-white" href="#">Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class=" navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">Home</a>
               </li>
@@ -86,21 +88,22 @@
           <div class="container my-5 py-5">
               <div class="row mb-5">
                   <div class="col-12">
-                      <h1 class="fw-bold text-center">About me</h1>
-                      <hr>
+                      <h1 class="fw-bold text-center text-warning">About me</h1>
+                      <hr class="bg-warning">
                   </div>
               </div>
               <div class="row">
               <div class="col-md-6">
                   <img src="./images/img1.jpg" alt="" height="400" width="300">
+ 
               </div>   
               <div class="col-md-6">
-                  <h1 class="fw-bold">JULIAN ALMENDAREZ</h1>
-                  <h3 class="text-warning mb-4">WEB DEVELOPER</h3>
-                  <P class="lead mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, obcaecati, laborum doloribus perspiciatis impedit ex blanditiis deserunt libero veritatis nulla voluptates unde voluptatum, ullam earum saepe consequuntur voluptatem repellendus dolor!</P>
+                  <!-- <h1 class="fw-bold text-white">JULIAN ALMENDAREZ</h1>
+                  <h3 class="text-warning mb-4">WEB DEVELOPER</h3> -->
+                  <P class="lead mb-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores corporis enim consequuntur corrupti. Commodi numquam qui velit consequatur quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, obcaecati, laborum doloribus perspiciatis impedit ex blanditiis deserunt libero veritatis nulla voluptates unde voluptatum, ullam earum saepe consequuntur voluptatem repellendus dolor!</P>
                   <div class="buttons">    
-                      <a href="./data/TEST FILE.pdf" class="btn btn-outline-warning px-5 py-2" download="Resume">Download CV</a>
-                      <a href="#contact" class="btn btn-warning text-white px-5 py-2">Contact</a>    
+                      <button href="./data/TEST FILE.pdf" class="btn text-white" download="Resume">Download CV</button>
+                      <!-- <a href="#contact" class="btn btn-warning text-white px-5 py-2">Contact</a>     -->
                   </div>
               </div>
               </div>  
@@ -112,14 +115,14 @@
         <div class="container my-5 py-5">
           <div class="row mb-5">
             <div class="col-12">
-              <h1 class="fw-bold text-center">My Skills</h1>
-              <hr>
+              <h1 class="fw-bold text-center text-warning">My Skills</h1>
+              <hr class= "bg-warning">
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <h1 class="fw-bold mb-4">Skills & Experience</h1>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste accusantium veniam culpa, architecto, quo maiores dicta delectus voluptatem nostrum nisi voluptates sequi id. Aperiam ab ea nemo, ducimus nisi velit, atque explicabo enim facilis eveniet nulla, incidunt voluptatibus ad provident ipsum mollitia. Dolorum vitae esse eaque corrupti eum at?</p>
+              <h1 class="fw-bold mb-4 text-white">Skills & Experience</h1>
+              <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste accusantium veniam culpa, architecto, quo maiores dicta delectus voluptatem nostrum nisi voluptates sequi id. Aperiam ab ea nemo, ducimus nisi velit, atque explicabo enim facilis eveniet nulla, incidunt voluptatibus ad provident ipsum mollitia. Dolorum vitae esse eaque corrupti eum at?</p>
             </div>
             <div class="col-md-6 d-flex flex-column justify-content-center fw-bold">
 
@@ -149,38 +152,39 @@
         <div class="container my-5 py-5">
           <div class="row mb-5 ">
             <div class="col-12">
-              <h1 class="fw-bold text-center">Projects</h1>
-              <hr>
+              <h1 class="fw-bold text-center text-warning">Projects</h1>
+              <hr class= "bg-warning">
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
               <div class="card p-4" style="width: 18rem;">
-                <img src="./images/poetry photo.jpeg" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h3>Poetry Explore</h3>
+                <img class="project-img" src="./images/poetry photo.jpeg" class="card-img-top" alt="...">
+                <div class="card-body text-center ">
+                  <h4 class="text-dark fw-bold">Poetry Explore</h4>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card p-4" style="width: 18rem;">
-                <img src="./images/quiz photo.jpeg" class="card-img-top" alt="...">
+                <img class="project-img"  src="./images/quiz photo.jpeg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
-                  <h3>Quizami</h3>
+                  <h4 class="text-dark fw-bold">Quizami</h4>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card p-4" style="width: 18rem;">
-                <img src="./images/react photo.png" class="card-img-top" alt="...">
+                <img class="project-img" src="./images/quiz photo.jpeg" class="card-img-top" alt="...">
                 <div class="card-body text-center">
-                  <h3>Helping Hands</h3>
+                  <h4 class="text-dark fw-bold">Helping Hands</h4>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
+              
           </div>
         </div>
       </section>
@@ -190,15 +194,15 @@
         <div class="container my-5 bg-promary">
           <div class="row mb-5">
             <div class="col-12">
-              <h1 class="fw-bold text-center">Let Chat!</h1>
-              <hr>
+              <h1 class="fw-bold text-center text-warning">Let's Chat!</h1>
+              <hr class= "bg-warning">
             </div>
           </div>
           <div class="row">
             <div class="col-md-6 mx-auto">
               <form action="">
 
-                <div class="mb-3">
+                <div class="mb-3 text-white">
                   <label for="fromName" class="form-label">From</label>
                   <input type="text" class="form-control" id="fromName" placeholder="">
                 </div>
@@ -208,12 +212,12 @@
                   <input type="text" class="form-control" id="toName" placeholder="">
                 </div> -->
 
-                <div class="mb-3">
+                <div class="mb-3 text-white">
                   <label for="message" class="form-label">Message</label>
                   <textarea class="form-control" id="message" rows="5"></textarea>
                 </div>
 
-                <button onClick="sendMail()" type="submit" class="btn btn-outline-warning">Send Message</button>
+                <button onClick="sendMail()" type="submit" class="btn text-white">Send Message</button>
               </form>
 
             </div>
