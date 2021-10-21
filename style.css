@@ -1,5 +1,6 @@
 .body {
-    background-image: linear-gradient(rgb(25, 31, 88), rgb(49, 55, 136), rgb(0, 0, 0) );
+    /* background-image: linear-gradient(rgb(25, 31, 88), rgb(49, 55, 136), rgb(0, 0, 0) ); */
+    background-color:gray;
 }
 * {
   margin: 0%;
@@ -9,6 +10,7 @@
 /* NAVBAR */
 .navbar-nav {
   font-size: 18px;
+  
 }
 
 .navbar {
@@ -25,6 +27,7 @@
   display: block;
   position: relative;
   padding: 0.2em 0;
+  
 }
 
 /* Fade in */
@@ -53,13 +56,20 @@
 
 /* HOME SECTION */
 
+#home{
+  background-image: url(./images/colorsmoke.gif);
+  background-size: 100%;
+}
+
 .header {
   margin: 85px;
+  position:relative;
+  bottom: 50px;
 }
 
 h2 {
   position: relative;
-  top: 75px;
+  top: 40px;
   color: rgb(0, 0, 0);
   text-shadow: 0px 8px 4px #000000;
 }
@@ -134,13 +144,13 @@ button:after {
 }
 
 button:before {
-  border-top: 2px solid #fde400;
+  border-top: 2px solid #00ddfa;
   right: 0;
   top: -4px;
 }
 
 button:after {
-  border-bottom: 2px solid #fde400;
+  border-bottom: 2px solid #00ddfa;
   bottom: -4px;
   left: 0;
 }
