@@ -12,6 +12,17 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="./script.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <!-- EMAILJS CODE -->
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_jKLmQvGW05uCM4CmZAVAL");
+    })();
+    </script>
+
     <title>My Portfolio</title>
   </head>
   <body>
@@ -179,27 +190,30 @@
         <div class="container my-5 bg-promary">
           <div class="row mb-5">
             <div class="col-12">
-              <h1 class="fw-bold text-center">Contact</h1>
+              <h1 class="fw-bold text-center">Let Chat!</h1>
               <hr>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6 mx-auto">
-
               <form action="">
+
                 <div class="mb-3">
-                  <label for="exampleFormControlInput" class="form-label">Full Name</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput" placeholder="Julian Almendarez">
+                  <label for="fromName" class="form-label">From</label>
+                  <input type="text" class="form-control" id="fromName" placeholder="">
                 </div>
+
+                <!-- <div class="mb-3">
+                  <label for="toName" class="form-label">To</label>
+                  <input type="text" class="form-control" id="toName" placeholder="">
+                </div> -->
+
                 <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="5"></textarea>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                </div>
-                <button type="submit" class="btn btn-outline-warning">Send Message</button>
+
+                <button onClick="sendMail()" type="submit" class="btn btn-outline-warning">Send Message</button>
               </form>
 
             </div>
