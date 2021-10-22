@@ -1,8 +1,8 @@
 .body {
   background-image: linear-gradient(
-    rgb(4, 156, 194),
+    rgb(138, 118, 53),
     rgb(131, 131, 131),
-    rgb(4, 156, 194)
+    rgb(138, 118, 53)
   );
 }
 * {
@@ -53,7 +53,7 @@
 /* HOME SECTION */
 
 #home {
-  background-image: url(./images/colorsmoke.gif);
+  background-image: url(./images/foggy\ colors.jpeg);
   background-size: 100%;
 }
 
@@ -111,7 +111,7 @@ h3 {
 .buttons {
   position: relative;
   top: 10%;
-  left: 35%;
+  left: 29%;
 }
 
 /* MORE BUTTON FX */
@@ -162,6 +162,7 @@ a {
 /* IMG FX */
 img {
   box-shadow: 1px 2px 20px 8px rgb(5, 5, 5);
+
 }
 
 /* PROJECT IMG FX */
@@ -172,4 +173,9 @@ img {
 /* H1 */
 h1 {
   text-shadow: 0px 5px 4px #000000;
+}
+
+/* Message Box Shadows */
+.form-control{
+  box-shadow: 0px 1px 10px 2px rgb(5, 5, 5);
 }

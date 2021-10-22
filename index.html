@@ -30,7 +30,7 @@
   </head>
   <body class="body">
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-info" id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary" id="navbar">
         <div class="container">
           <a class="navbar-brand fw-bold text-white" href="#">Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,11 +86,11 @@
 
       <!-- ABOUT SECTION -->
       <section id="about">
-          <div class="container my-5 py-5">
+          <div class="container my-2 py-2">
               <div class="row mb-5">
                   <div class="col-12">
-                      <h1 class="fw-bold text-center text-white">About me</h1>
-                      <hr class="bg-white">
+                    <h1 class="fw-bold text-center text-white">About me</h1>
+                    <hr class="bg-white">
                   </div>
               </div>
               <div class="row">
@@ -101,9 +101,9 @@
               <div class="col-md-6">
                   <!-- <h1 class="fw-bold text-white">JULIAN ALMENDAREZ</h1>
                   <h3 class="text-warning mb-4">WEB DEVELOPER</h3> -->
-                  <P class="lead mb-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores corporis enim consequuntur corrupti. Commodi numquam qui velit consequatur quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, obcaecati, laborum doloribus perspiciatis impedit ex blanditiis deserunt libero veritatis nulla voluptates unde voluptatum, ullam earum saepe consequuntur voluptatem repellendus dolor!</P>
+                  <P class="lead mb-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugiat provident alias cum enim dolor, eligendi quo facere asperiores culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores corporis enim consequuntur corrupti. Commodi numquam qui velit consequatur quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, obcaecati, laborum doloribus perspiciatis impedit ex blanditiis deserunt libero veritatis nulla voluptates unde voluptatum, ullam earum saepe consequuntur voluptatem repellendus dolor!</P>
                   <div class="buttons">    
-                      <button href="./data/TEST FILE.pdf" class="btn text-white btn-outline-danger" download="Resume">Download CV</button>
+                      <button href="./data/TEST FILE.pdf" class="btn text-white btn-outline-secondary" download="Resume">Download CV</button>
                       <!-- <a href="#contact" class="btn btn-warning text-white px-5 py-2">Contact</a>     -->
                   </div>
               </div>
@@ -150,7 +150,7 @@
 
       <!-- PROJECTS SECTION -->
       <section id="projects">
-        <div class="container my-5 py-5">
+        <div class="container my-2 py-2">
           <div class="row mb-5 ">
             <div class="col-12">
               <h1 class="fw-bold text-center text-white">Projects</h1>
@@ -203,9 +203,12 @@
             <div class="col-md-6 mx-auto">
               <form action="">
 
+                <div class="fw-bold">Phone: (817) 705-3752</div>
+                <div class="fw-bold">Email: JulianAlmendarez@yahoo.com</div>
+
                 <div class="mb-3 text-white">
-                  <label for="fromName" class="form-label">From</label>
-                  <input type="text" class="form-control" id="fromName" placeholder="">
+                  <label for="fromName" class="form-label "></label>
+                  <input type="text" class="form-control" id="fromName" placeholder="Name">
                 </div>
 
                 <!-- <div class="mb-3">
@@ -214,11 +217,11 @@
                 </div> -->
 
                 <div class="mb-3 text-white">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea class="form-control" id="message" rows="5"></textarea>
+                  <label for="message" class="form-label"></label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
                 </div>
 
-                <button onClick="sendMail()" type="submit" class="btn text-white bg-danger">Send Message</button>
+                <button onClick="sendMail()" type="submit" class="btn text-white btn-outline-secondary">Send Message</button>
               </form>
 
             </div>
