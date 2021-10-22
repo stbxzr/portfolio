@@ -10,17 +10,7 @@ function sendMail(param){
     .then(function(res){
         console.log("success", res.status);
     })
-    
-    
 }
-
-// let btnClear = document.querySelector('button');
-// let inputs = document.querySelector('inputs');
-// let textArea = document.querySelector('textarea');
-
-// btnClear.addEventListener('click', () => {
-//     inputs.forEach(input => input.value = '');
-// });
 
 // from_name: document.getElementById("exampleFormControlInput").value,
 // to_name: document.getElementById("exampleFormControlInput").value,
