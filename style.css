@@ -1,8 +1,8 @@
 .body {
   background-image: linear-gradient(
-    rgb(138, 118, 53),
-    rgb(131, 131, 131),
-    rgb(138, 118, 53)
+    rgb(40, 66, 104),
+    rgb(129, 129, 129),
+    rgb(40, 66, 104)
   );
 }
 * {
@@ -53,7 +53,7 @@
 /* HOME SECTION */
 
 #home {
-  background-image: url(./images/foggy\ colors.jpeg);
+  background-image: url(./images/earthgif1.gif);
   background-size: 100%;
 }
 
@@ -81,13 +81,13 @@ h3 {
   height: 30px;
   border-radius: 50px;
   transition: all 0.5s ease;
-  text-shadow: 0px 5px 3px #000000;
+  text-shadow: 0px 3px 2px #000000;
   box-shadow: 4px 7.2px 6px rgb(0, 0, 0);
 }
 
-.progress:hover {
-  transform: scale(1.1);
-}
+/* .progress:hover {
+  
+} */
 
 /* CARDS */
 .card {
@@ -117,6 +117,14 @@ h3 {
 /* MORE BUTTON FX */
 
 button {
+  border: none;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  box-shadow: 0px 1px 10px 2px rgb(5, 5, 5);
+}
+
+.cvBtn{
   border: none;
   outline: none;
   padding: 12px 40px 10px;
@@ -162,7 +170,6 @@ a {
 /* IMG FX */
 img {
   box-shadow: 1px 2px 20px 8px rgb(5, 5, 5);
-
 }
 
 /* PROJECT IMG FX */
@@ -178,4 +185,22 @@ h1 {
 /* Message Box Shadows */
 .form-control{
   box-shadow: 0px 1px 10px 2px rgb(5, 5, 5);
+}
+
+.footer {
+  background-color: #808080;
+  border-top: solid;
+  border-color: #000000;
+  border-width: 100%;
+  padding: 35px;
+  text-align: center;
+  color: #cccccc;
+  font-size: 10px;
+}
+
+.link1{
+  display: block;
+  max-width: 3%;
+  height: 3%;
+  
 }
