@@ -80,6 +80,7 @@ h3 {
 .progress {
   height: 30px;
   border-radius: 50px;
+  font-size: 12px;
   transition: all 0.5s ease;
   text-shadow: 0px 3px 2px #000000;
   box-shadow: 4px 7.2px 6px rgb(0, 0, 0);
@@ -170,9 +171,7 @@ a {
 
 /* IMG FX */
 img{
-
   box-shadow: 1px 2px 20px 8px rgb(5, 5, 5);
-  border-radius: 50%; 
 }
 
 /* PROJECT IMG FX */
@@ -221,3 +220,4 @@ ion-icon{
 #footerIcon:hover{
   color: #000000;
 }
+
