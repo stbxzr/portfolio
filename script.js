@@ -4,8 +4,6 @@ function sendMail(param){
         // to_name: document.getElementById("toName").value,
         message: document.getElementById("message").value,
     };
-
-    
     emailjs.send('yahoo', 'template_i9bv95g', tempParams)
     .then(function(res){
         console.log("success", res.status);
