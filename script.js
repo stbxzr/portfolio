@@ -10,6 +10,7 @@ function sendMail(param){
     })
 }
 
+
 // from_name: document.getElementById("exampleFormControlInput").value,
 // to_name: document.getElementById("exampleFormControlInput").value,
 // message: document.getElementById("exampleFormControlTextarea1").value,
